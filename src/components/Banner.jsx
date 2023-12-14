@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap"
 import { BsArrowRightCircle } from "react-icons/bs";
 import imageHead from "../assets/img/header-img.svg"
+import CV from "../assets/pdf/Merabet-Abdelkarim-Resume.pdf"
 
 
 function Banner() {
@@ -58,10 +59,12 @@ function Banner() {
                                 I am a front-end developer specializing in ReactJS and Bootstrap, with sufficient experience in developing scalable, maintainable and easy-to-use web applications.
                                 <br />
                                 Continuous learning is a priority for me, which allows me to stay ahead of the latest trends and technologies in web development.
-                                <br /> 
+                                <br />
                                 Let's connect and discuss how I can contribute to your team's success.
                             </p>
-                            <button onClick={() => console.log('connect')}>Let’s Connect <BsArrowRightCircle size={25} /></button>
+                            <form method="get" action={CV} >
+                                <button type="submit">Download CV<BsArrowRightCircle size={18} /></button>
+                            </form>
                         </div>
 
                     </Col>

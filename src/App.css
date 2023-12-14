@@ -9,7 +9,6 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: 75px;
 }
-
 body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
@@ -171,7 +170,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: inline-block;
 }
 .banner h1 {
-  font-size: 65px;
+  font-size: 50px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
@@ -476,9 +475,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.footer img {
-  width: 26%;
-}
+@media  (max-width: 575px) {
+  .footer .logo {
+    color: #B8B8B8;
+    text-align: center;
+  }
+  }
 .footer .social-icon a{
   background-color: transparent;
   font-size: 30px; 
