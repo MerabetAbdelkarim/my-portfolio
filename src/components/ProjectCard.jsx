@@ -9,7 +9,7 @@ export const ProjectCard = ({ title, description, imgUrl , projectUrl }) => {
                     <h4>{title}</h4>
                     <span>{description}</span>
                     <br />
-                    <a href={projectUrl}><Button className="mt-2" >Demo</Button></a>
+                    <a href={projectUrl} target="_blank"><Button className="mt-2" >Demo</Button></a>
                 </div>
                 
             </div>
