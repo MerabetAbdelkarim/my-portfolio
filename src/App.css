@@ -153,7 +153,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /*-------------- Banner Css ---------------*/
 .banner {
   margin-top: 0;
-  padding: 260px 0 100px 0;
+  padding: 150px 0;
   background-image: url('./assets/img/banner-bg.png');
   background-position: top center;
   background-size: cover;
@@ -276,7 +276,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project .nav.nav-pills {
   width: 72%;
   margin: 0 auto;
-  border-radius: 50px;
+  border-radius: 10px;
   background-color: rgb(255 255 255 / 10%);
   overflow: hidden;
 }
@@ -316,7 +316,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .nav-link#projects-tabs-tab-first {
   border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 55px 0px 0px 55px;
+  border-radius: 10px 0px 0px 10px;
 }
 .nav-link#projects-tabs-tab-second {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
@@ -324,7 +324,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .nav-link#projects-tabs-tab-third {
   border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 0 55px 55px 0;
+  border-radius: 0 10px 10px 0;
 }
 .proj-imgbx {
   position: relative;
@@ -372,10 +372,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /*----------------- Skills Css -------------------*/
-/*----------------- Projects Css -----------------*/
+/*----------------- Contact Css -----------------*/
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-  padding: 60px 0 200px 0;
+  padding: 60px 0;
 }
 .contact img {
   width: 92%;
@@ -389,10 +389,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 100%;
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 20px;
+  border-radius: 7px;
   color: #fff;
-  margin: 0 0 8px 0;
-  padding: 18px 26px;
+  margin: 10px 0;
+  padding: 10px ;
   font-weight: 500;
   font-size: 18px;
   letter-spacing: 0.8px;
@@ -466,7 +466,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     width: 25%;
   }
 }
-/*----------------- Projects Css -----------------*/
+/*----------------- Contact Css -----------------*/
 /*----------------- Footer Css -----------------*/
 .footer {
   padding: 20px 0 ;

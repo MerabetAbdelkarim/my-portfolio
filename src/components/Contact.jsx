@@ -70,7 +70,6 @@ export const Contact = () => {
                             {({ isVisible }) =>
                                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                                     <h2>Get In Touch</h2>
-
                                     <form ref={form} onSubmit={handleSubmit}>
                                         <Row>
                                             <Col size={12} sm={6} className="px-1">
@@ -86,7 +85,7 @@ export const Contact = () => {
                                                 <input type="tel" name="phone" value={formDetails.phone} placeholder="Phone No." onChange={(e) => onFormUpdate('phone', e.target.value)} />
                                             </Col>
                                             <Col size={12} className="px-1">
-                                                <input rows="6" name="message" value={formDetails.message} placeholder="Message" onChange={(e) => onFormUpdate('message', e.target.value)}></input>
+                                                <textarea rows="6" name="message" value={formDetails.message} placeholder="Message" onChange={(e) => onFormUpdate('message', e.target.value)}></textarea>
                                                 <button type="submit"><span>{buttonText}</span></button>
                                             </Col>
                                         </Row>
