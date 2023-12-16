@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import { FaLinkedinIn, FaFacebook, FaYoutube } from "react-icons/fa";
+import { FaLinkedinIn, FaFacebook, FaYoutube, FaBehance  } from "react-icons/fa";
 
 export const Footer = () => {
     return (
@@ -16,6 +16,7 @@ export const Footer = () => {
                         <div className="social-icon">
                             <a href="https://www.linkedin.com/in/merabet-abdelkarim/"><FaLinkedinIn /></a>
                             <a href="https://www.facebook.com/karimkarimmerabet/"><FaFacebook /></a>
+                            <a href="https://www.behance.net/abdelkamerabet"><FaBehance /></a>
                             <a href="https://www.youtube.com/@merabetabdelkarim"><FaYoutube /></a>
                         </div>
                         <p>Copyright 2023. All Rights Reserved</p>
