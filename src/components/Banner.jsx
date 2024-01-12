@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap"
 import { BsArrowRightCircle } from "react-icons/bs";
-import imageHead from "../assets/img/header-img.svg"
+import imageHead from "../assets/img/header-img .png"
 import CV from "../assets/pdf/Merabet-Abdelkarim-Resume.pdf"
 
 
